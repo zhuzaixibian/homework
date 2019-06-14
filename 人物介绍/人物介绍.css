@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(252,253,248);
+}
+#title{
+    color:rgb(63,63,63);
+    text-align:center;
+}
+#basicinformation{
+    background-color: rgb(219,220,225);
+
+}
+#basicinformation{
+    position:absolute;
+    top:120px;
+    left:280px;
+    font-size:16px;
+    letter-spacing:2px;
+    line-height:28px;
+
+}
