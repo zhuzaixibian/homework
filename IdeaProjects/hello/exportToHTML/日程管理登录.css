@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-image: url("img/背景2.png");
+    background-repeat: no-repeat;
+    background-position: 0px 70px;
+    background-size: 100%;
+    /*background-color: rgb(245,246,251);*/
+}
+
+#head img.logo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#body ul.left{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 20px;
+    float: left;
+
+}
+
+#body ul.right{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 20px;
+    float: right;
+
+}
+#body li.left{
+    display: inline;
+    text-align: center;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color:rgb(56,56,56);
+
+}
+
+#body li.right{
+    display: inline;
+    text-align: center;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color:rgb(56,56,56);
+}
+a:link{
+    text-decoration: none;
+    color:rgb(56,56,56);
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(56,56,56);
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(56,56,56);
+}
+#footer p{
+    position: absolute;
+    left: 10%;
+    top: 88%;
+    color:rgb(56,56,56);
+    font-size: large;
+    font-family: Hei;
+}
+#footer img.slogan{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+#footer img.first{
+    position: absolute;
+    top: 89%;
+    left: 30%;
+}
+#footer img.second{
+    position: absolute;
+    top: 89%;
+    left: 40%;
+}
+#footer ul.bottom{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+    left: 70%;
+    top: 92%;
+
+
+}
+
+#footer li.bottom{
+    display: inline;
+    text-align: center;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color:rgb(56,56,56);
+
+}
+#background1{
+    height: 48%;
+    width: 22%;
+    float: bottom;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 27%;
+    left: 60%;
+}
+#background1 p.title{
+    color: rgb(0,170,238);
+    font-size: 18px;
+    text-align: center;
+}
+#background1 p.forms{
+    color: rgb(170,171,175);
+    font-size: 18px;
+    text-align: left;
+}
+#background1 form.fill{
+    position: relative;
+    text-align:center ;
+}
+/*#background1 p.divide{*/
+    /*position: relative;*/
+    /*top: -230px;*/
+    /*background-color: white;*/
+    /*height: 2px;*/
+    /*width: 100%;*/
+/*}*/
