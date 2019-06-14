@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    background-image: url(img/rainy.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#background1{
+    height: 48%;
+    width: 22%;
+    float: bottom;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 27%;
+    left: 15%;
+}
+
+#heading{
+    background-color: black;
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+#heading p.left{
+    position: absolute;
+    top:-7px;
+    left: 8%;
+    color: rgb(0,170,238);
+    font-size: 5px;
+}
+#heading p.right{
+    position: absolute;
+    top: -7px;
+    left: 70%;
+    color: rgb(170,171,175);
+    font-size: 5px;
+}
+a:link{
+    text-decoration: none;
+    color:rgb(170,171,175);
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(170,171,175);
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(170,171,175);
+}
+a.alipay{
+    color: rgb(0,170,238);
+}
+#background1 p.title{
+    color: rgb(0,170,238);
+    font-size: 18px;
+    text-align: center;
+}
+#background1 p.forms{
+    color: rgb(170,171,175);
+    font-size: 18px;
+    text-align: left;
+}
+#background1 form.fill{
+    position: relative;
+    text-align:center ;
+}
+#background1 p.divide{
+    position: relative;
+    top: -230px;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}
+#contact p{
+    color:black;
+    font-size: 5px;
+    text-align: center;
+    position: absolute;
+    top:80%;
+    left: 35%;
+}
