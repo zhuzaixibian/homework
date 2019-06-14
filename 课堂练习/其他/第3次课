@@ -1,0 +1,289 @@
+# score = int(input("请输入你的成绩"))
+# if score == 100:
+#     print("你的成绩满分")
+# elif score>=80 and score<100:
+#     print("你的成绩优秀")
+# elif score>=60 and score<80:
+#     print("你的成绩良好")
+# else:
+#     print("你的成绩不合格"+str(score))
+
+# year = int(input("请输入年份"))
+# if year % 4 == 0 and year % 400 != 0:
+#     print(str(year)+"是闰年")
+# else:
+#     print("不是闰年")
+
+# i = 1
+# sum = 0
+# while i<100:
+#     sum = sum + i
+#     i = i+1
+# print(sum)
+
+# i = 1
+# sum = 1
+# while i<100:
+#     sum = sum*i
+#     i = i +1
+# print(sum)
+
+# i = 1
+# while i < 101:
+#     if i % 7 == 0:
+#         print("过", end=",")
+#     else:
+#         print(i, end=",")
+#     i=i+1
+
+
+
+
+# i = 1
+# while i <= 100:
+#     if (i%7==0 or i%10==7 i//10==7):
+#         i=i+1
+#         continue
+#     else:
+#         print(i)
+#         i+=1
+# num = int(input("请输入一个数字"))
+# i= 2
+# while i<num:
+#     i+=1
+#     if num%i ==0:
+#         print(str(num)+"不是质数")
+#         break
+#     else:
+#         if i+1 ==num:
+#             print("质数")
+#             break
+
+
+# for i in range(9):
+#     i+=1
+#     for j in range(9):
+#         j+=1
+#         print(i, "*",j,"=",(i*j)," ",end=" ")
+#     print(" ")
+
+# file = open('/Users/elsazhang/研究生/作业/cat/软件竞赛/本地化/语料库SLC/BankofAmerica.txt','r')
+# text1=file.readline()
+# text2=file.read()
+# print("read:",text1)
+# output=open("output.txt","w")
+# output.write(text1)
+
+
+# sum=0
+# for x in range(101):
+#     sum = sum+x
+# print(sum)
+
+# sum = 0
+# n = 99
+# while n>0:
+#     sum = sum+n
+#     n=n-2
+# print(sum)
+
+# L= ['刘茹老师','刘老师','刘老师','刘老师']
+# for a in L:
+#     print("hello,"+ a)
+
+# for x in range(9):
+#     print("刘老师最牛逼",x)
+
+# print('I\'m \"ok\" ')
+
+# print('I\'m learning \n \"Python\" ')
+
+# print(r'''hello,\n
+# world''')
+# a = 123
+# print(type(a))
+# b="123"
+# print(type(b))
+
+# a= 'hello, %s'%("world")
+# print (a)
+
+# a = "hello %d" % (1000)
+# print (a)
+#
+# print('%.2f' % 3.1415926)
+# print('%2d-%02d' % (3, 1))
+# classmates=["zhangxintong","liuru","hewenxin"]
+# print (classmates[0],classmates[1],classmates[2])
+# classmates.append("liqiuli")
+# print(classmates)
+# classmates.insert(1, "zhongchenli")
+# print(classmates)
+# classmates.pop(1)
+# print(classmates)
+
+# L = [
+#     ['Apple', 'Google', 'Microsoft'],
+#     ['Java', 'Python', 'Ruby', 'PHP'],
+#     ['Adam', 'Bart', 'Lisa']
+# ]
+# print(L[0][0])
+# print(L[1][1])
+# print(L[2][2])
+
+# age=int(input("请输入你的年龄"))
+# if age >18:
+#     print("your age is ", age)
+#     print("adult")
+# else:
+#     print("your age is ", age)
+#     print("teenager")
+#
+# L = ['Bart', 'Lisa', 'Adam']
+# for names in L:
+#     print("hello",names)
+# n=1
+# sum=0
+# while(n<101):
+#     sum=sum+n
+#     n+=1
+#     if (n>=11 and n<=79):
+#         print(n, sum)
+#         continue
+# print('end')
+
+# n=0
+# while n<11:
+#     n=n+1
+#     if n%2==0:
+#         continue
+#     print (n)
+# a=1
+# account=1
+# while(a<101):
+#     a = a + 1
+#     if a%2==0:
+#         continue
+#     account=account*a
+# print(account)
+
+# d ={'macheal':95,'liuchuan':90,'zhangxintong':100}
+# print(d['macheal'])
+#
+
+# d = {'happy':'feel happy','heat':'feel bad'}
+# print(d['happy'])
+# 'happy' in d
+# d.get('Thomas')
+
+# s1=set([1,2,3])
+# s1.remove(3)
+# print(s1)
+# s1.pop()
+# print(s1)
+# s1.add(3)
+# print(s1)
+# a=max(1,2)
+# print(a)
+
+# a=16
+# b=hex(a)
+# print(b)
+# def my_abs(x):
+#     if x > 0:
+#         return x
+#     else:
+#         return abs(x)
+# a = -13
+# print(my_abs(a))
+
+# import math
+# def move(x, y, step, angle=0):
+#     nx = x + step * math.cos(angle)
+#     ny = y - step * math.sin(angle)
+#     return nx, ny
+# a=move(23,32,3,angle=10)
+# print(a)
+
+# def power(x):
+#     if x > 0:
+#         return x-1
+#     else:
+#         return abs(x)
+# a= -38
+# print (power(a))
+
+# def sqr(x,n):
+#     if x>0:
+#         return x ** n
+# print(sqr(2,5))
+
+# def cal(numbers):
+#     sum=0
+#     for n in numbers:
+#         sum=sum+n
+#     return sum
+# print(cal([1,2,3,4,5]))
+
+# def fact(n):
+#     if n ==1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# a = 5
+# print(fact(a))
+#
+# L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
+# r=[]
+# n = 3
+# for i in range(n):
+#     r.append(L[i])
+# print(r)
+# d = {'a': 1, 'b': 2, 'c': 3}
+# for k, v in d.items():
+#     print(k,v)
+# dictionary = {'happy':'feel good about','unhappy':'feel bad about','serious':'concern about'}
+# for value in dictionary.values():
+#     print(value)
+# for key in dictionary:
+#     print(key)
+# for k, v in dictionary.items:
+#     print(k,v)
+
+# for i, value in enumerate(['A','B','C']):
+#     print ((i+1,value))
+
+# L=[]
+# for i in range(1,11):
+#     if i % 2 == 0:
+#         L.append(i*i)
+# print(L)
+# 99 乘法表
+# for i in range (1,10):
+#     for j in range(1,10):
+#         if j<= i:
+#             print (i,'*',j,'=',i*j,' ',end=' ')
+#      print('')
+# L = ['Hello', 'World', 'IBM', 'Apple']
+# for i in L:
+#     print(i.lower(),end=' ')
+
+# L = [x * x for x in range(10)]
+# print(L)
+#
+
+# f = abs
+# print(f)
+
+
+# def f(x):
+#     return x*x
+# r= map(f,[1,2,3,4,5,6,7,8,9])
+# print(list(r))
+
+
+
+
+
+
+
