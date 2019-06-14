@@ -1,0 +1,36 @@
+#background{
+    background-image: url(../png/登录界面3.png); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 640px;
+}
+#chinamobile img.name{
+    position:absolute;
+    top:25px;
+    left:60px;
+}
+
+#chinamobile img.computer{
+    position:absolute;
+    top:325px;
+    left:90px;
+}
+
+#chinamobile p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color:black;
+    position: absolute;
+    top:570px;
+    left:600px;
+    text-align:center;
+}
+
+#chinamobile img.system{
+    position: absolute;
+    top:150px;
+    left:700px;
+}
+
+

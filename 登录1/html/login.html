@@ -1,0 +1,52 @@
+<!Doctype Html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>中国移动通信——登录页面</title>
+        <link type="text/css" rel="stylesheet" href="login.css"/>
+    </head>
+    <body>
+        <div id="background"></div>
+        <div id="chinamobile">
+            <img class="name" src="../png/logologo.png" height="180px" />
+            <img class="computer" src="../png/computer.png" height="330px" />
+			<img class="system" src="../png/移动项目管理系统.png" height="90px">
+			<p >中国移动通信集团海南有限公司2009</p>
+        </div>   
+        <div style="width:500px;float: right;margin:0 auto;" >    
+            <label for="username" style="font-size:18px;position:absolute;left:650px;top:300px;" >用户名：</label>
+            <div style="height:35px;width:400px;position:absolute;left:750px;top:300px; display:inline;" >
+                <input id="username" type="text" style="height:30px;width:350px;padding-right:50px;">
+                <span style="position:absolute;right:18px;top:2px;background-image:url(user.ico);height:16px;width:16px;display:inline-block;"></span>  
+            </div>
+            <br/>
+            <br/>
+
+            <label for="password1" style="font-size:18px;position:absolute;left:650px;top:350px;" > 密码：</label>
+            <div style="height:35px;width:400px;position:absolute;left:750px;top:350px;display:inline" >  
+                <input id="password1" type="text" style="height:30px;width:350px;padding-right:50px;">
+                <span style="position:absolute;right:16px;top:2px;background-image:url(p.ico);height:16px;width:16px;display:inline-block;"></span>
+            </div>
+            <br/>
+            <br/>
+
+            <label for="verification_code" style="font-size:18px;position:absolute;left:650px;top:400px;" >验证码：</label>
+            <div style="height:35px;width:400px;position:absolute;left:750px;top:400px; display:inline;" >
+                <input id="verification_code" type="text" style="height:30px;width:350px;padding-right:50px;">
+                <span style="position:absolute;right:16px;top:2px;background-image:url(p.ico);height:16px;width:16px;display:inline-block;"></span>
+            </div>
+            <br/>
+            <br/>
+
+            <div style="width:426px;float: right;position:absolute;left:750px;top:450px;">
+                <input type="radio" name="auto_login" value="1"/> 自动登录
+            </div>
+            <br/>
+            <br/>
+            <div style="width:426px;float: right;position:absolute;left:750px;top:500px;">
+                <input type="submit"  value="登录" style="height:30px;width:400px;background-color:red;"/>
+            </div>
+        </div>
+
+    </body>
+</html>
